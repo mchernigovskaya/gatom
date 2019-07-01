@@ -377,7 +377,7 @@ getDotSize <- function(logPval) {
 }
 
 
-nodeShapeMap <- c(met="circle", rxn="square")
+nodeShapeMap <- c(circle="circle", square="square", star="star")
 edgeStyleMap <- c(main="solid", trans="dashed")
 
 getDotNodeStyleAttributes <- function(attrs) {
